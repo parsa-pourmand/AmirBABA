@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AmirBABA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                /* Set the background image to the desired file, ensuring it covers the entire screen */
+                background-image: url('images/pic.jpg');
+                background-size: cover; /* Cover the entire screen */
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                margin: 0; /* Remove default margin */
+                height: 100vh; /* Set the minimum height to fill the viewport */
+            }
+            
+            h1 {
+                text-align: center; /* Optional: Center the 'Hello World' text */
+                color: black; /* Optional: Change text color for visibility */
+                padding-top: 20px; /* Optional: Add padding to position the text */
+                font-family: Georgia, serif;
+                font-size: 50px;
+            }
+
+            .text-block {
+                position:absolute;
+                width: 50%;
+                height: 30%;
+                bottom: 150px;
+                justify-content: center; /* Horizontally centers */
+                align-items: center;
+                
+                background-color: black;
+                color: white;
+                padding-left: 20px;
+                padding-right: 10px;
+            }
+
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            .welcome-container {
+                position: relative;
+                text-align: center;
+                color: white;
+                height: 100vh; /* Make sure the container spans the full viewport height */
+                display: flex; /* Use flexbox to center content */
+                justify-content: center; /* Center horizontally */
+                align-items: center; /* Center vertically */
+            }
+
+            .centered-text {
+                background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+                color: white;
+                max-width: 80%; /* Adjust the width as needed */
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto; /* Center text block horizontally if its width is less than max-width */
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="Airline_Login.html">Airline</a>
+            <a href="Passenger_Login.html">Passenger</a>
+            <div class="dropdown">
+                <button class="dropbtn">Register 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Airline_Register.jsp">Airline</a>
+                    <a href="Passenger_Register.jsp">Passenger</a>
+                </div>
+            </div> 
+        </div>
+        
+        
+            <h1>Welcome to AmirBABA</h1>
+            <div class="welcome-container">
+                <!-- Your background image would go here as an img tag or a background-image in CSS -->
+                <div class="centered-text">
+                    <p>With AmirBABA, you can explore a world of destinations at the tip of your fingers, enjoying unbeatable deals, comprehensive flight options, and personalized service tailored just for you.</p>
+                    <p>Our mission is to make your travel dreams a reality by offering an effortless and seamless flight booking experience.</p>
+                </div>
+            </div>
+    </body>
+</html>
+

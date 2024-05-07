@@ -1,0 +1,6 @@
+AmirBABA/ca/ticket/business/TicketBusiness.class
+AmirBABA/ca/ticket/endpoint/ApplicationConfig.class
+AmirBABA/ca/ticket/helper/Tickets.class
+AmirBABA/ca/ticket/helper/Ticket.class
+AmirBABA/ca/ticket/endpoint/TicketResource.class
+AmirBABA/ca/ticket/persistence/Ticket_CRUD.class
